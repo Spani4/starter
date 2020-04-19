@@ -12,6 +12,10 @@
 @import "../components/buttons";
 @import "../components/wrapper";
 
+* {
+    font-family: $main-font-family;
+}
+
 body {
     @include flex(col);
     position: relative;
@@ -23,8 +27,7 @@ body {
 
 main {
     flex-grow: 1;
-    // background-color: $bg-color;
-    
+    background-color: $bg-color;
 }
 
 .icon {
