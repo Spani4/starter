@@ -1,0 +1,29 @@
+@import "globals/global";
+
+@import "modules/header";
+@import "modules/header-mobile";
+@import "modules/nav";
+@import "modules/nav-mobile";
+@import "modules/footer";
+
+
+@import "components/wrapper";
+@import "components/link-social";
+@import "components/buttons";
+@import "components/custom-text";
+@import "components/page-title";
+
+
+.pages {
+
+    // @extend %outer;
+
+    // &__title {
+
+    //     font-size: 24px;
+    // }
+
+    // &__content {
+    //     margin-bottom: 60px;
+    // }
+}

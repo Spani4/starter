@@ -1,0 +1,33 @@
+.lang-switcher {
+    
+    &__btn {
+
+        // position: relative;
+        // padding: 0 10px;
+        // font-size: inherit;
+        // background-color: transparent;
+        // border-style: none;
+        cursor: pointer;
+
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     left: -3px;
+        //     right: -3px;
+        //     top: -3px;
+        //     bottom: -3px;
+        // }
+
+        // &:hover {
+        //     text-shadow: 0 0 1px #000;
+        // }
+    }
+}
+
+body {
+    top: 0 !important; // убираем появляющийся при переключении языка отступ сверху
+}
+
+.skiptranslate {
+    display: none !important; //прячем вылезающую панель панель
+}

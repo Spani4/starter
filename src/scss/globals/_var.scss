@@ -1,0 +1,50 @@
+// CSS
+html {
+    // --max-width: 1180px;
+    // --header-mobile-height: 100px;
+}
+
+
+// SCSS
+
+$max-width: 1180px;
+
+
+//COLORS
+$color1: #fff;
+$color2: #aaa;
+$color3: #666;
+$color4: #000;
+
+
+// $main-font-color: $color4;
+// $alt-font-color: $color1;
+// $bg-color: $color1;
+// $bg-color-alt: $color4;
+
+// sizes
+
+
+// fonts
+
+// $serif: 'Merriweather', serif;
+// $sans-serif: 'Montserrat', sans-serif;
+
+// $main-font-family: $sans-serif;
+
+//screen sizes max
+$xs: 479px;
+$sm: 575px;
+$md: 767px;
+$lg: 991px;
+$xl: 1199px;
+
+//screen sizes min
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+
+

@@ -1,0 +1,23 @@
+.link-social {
+    
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+
+    @include transition(opacity);
+
+    
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+
+    .icon {
+        width: 100%;
+        height: 100%;
+    }
+}

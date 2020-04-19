@@ -1,0 +1,70 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A light foundation for your next frontend project based on webpack.",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --progress --config webpack/webpack.config.prod.js  --colors",
+    "dev": "webpack-dev-server --open --progress --hot --config webpack/webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonS86/webpack-starter-kit.git"
+  },
+  "keywords": [
+    "webpack",
+    "startkit",
+    "frontend",
+    "es6",
+    "javascript",
+    "webdev"
+  ],
+  "author": "Bill Gates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonS86/webpack-starter-kit.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.7",
+    "assets-webpack-plugin": "^3.9.10",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "core-js": "^3.6.1",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "image-webpack-loader": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "jpegtran": "^1.0.6",
+    "loader-utils": "^1.2.3",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.13.0",
+    "noty": "^3.2.0-beta",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.19.1",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "svg-sprite-loader": "^4.1.6",
+    "vanilla-lazyload": "^12.5.1",
+    "vue": "^2.6.11",
+    "vue-imask": "^6.0.1",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-manifest-plugin": "^2.2.0",
+    "webpack-merge": "^4.2.2",
+    "swiper": "^5.3.0"
+  },
+  "dependencies": {}
+}

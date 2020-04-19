@@ -1,0 +1,60 @@
+@mixin flex($d: row, $j: flex-start, $a: stretch, $w: nowrap) {
+    display: flex;
+
+    @if $d == col {
+        flex-direction: column;
+    } @else  {
+        flex-direction: $d;
+    }
+
+    @if $j == fs {
+        justify-content: flex-start;
+    } @else if $j == fe {
+        justify-content: flex-end;
+    } @else if $j == sb {
+        justify-content: space-between;
+    } @else if $j == se {
+        justify-content: space-evenly;
+    } @else if $j == sa {
+        justify-content: space-around;
+    } @else if $j == c {
+        justify-content: center;
+    } @else if $j == s {
+        justify-content: stretch;
+    } @else {
+        justify-content: $j;
+    }
+
+    @if $a == fs {
+        align-items: flex-start;
+    } @else if $a == fe {
+        align-items: flex-end;
+    } @else if $a == sb {
+        align-items: space-between;
+    } @else if $a == sa {
+        align-items: space-around;
+    } @else if $a == c {
+        align-items: center;
+    } @else if $a == s {
+        align-items: stretch;
+    } @else {
+        align-items: $a;
+    }
+
+    flex-wrap: $w;
+}
+
+@mixin screen($size) {
+    @media (max-width: #{$size}px) {
+        @content;
+    }
+}
+
+@mixin transition($prop) {
+    transition-property: $prop;
+    transition-duration: .4s;
+
+    &:hover {
+        transition-duration: .05s;
+    }
+}

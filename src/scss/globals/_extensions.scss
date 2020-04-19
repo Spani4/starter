@@ -1,0 +1,37 @@
+%wrapper {
+    width: $max-width;
+    margin: 0 auto;
+
+    @include screen(1199) {
+        width: 100%;
+    }
+}
+
+%outer {
+    @include screen(1199) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+%centered {
+    @include flex(row, c, c);
+}
+
+%modal-bg {
+    @extend %centered;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+// %modal-window {
+//     position: relative;
+//     border-radius: 10px;
+//     background-color: $bg-color;
+//     box-shadow: 0 5px 20px $color3;
+// }
